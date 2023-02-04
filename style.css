@@ -25,10 +25,19 @@ h2 {
 }
 
 #projects{
-    margin: auto;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
 }
 
 #projects > img{
     width: 200px;
     height: 200px;
+    margin-left: 20px;
+    margin-right: 20px;
+
+}
+
+img:hover {
+    opacity: 50%;
 }
